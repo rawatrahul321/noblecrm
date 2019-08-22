@@ -1,0 +1,81 @@
+///
+/// This file regroups the LESS variables that style infonoble.components.
+/// They are available in every asset bundle.
+///
+
+// Font sizes
+@noblecrm-font-size-base: 13px;
+
+// Colors
+@noblecrm-brand-primary: #7c7bad;
+@noblecrm-brand-optional: #7c7bad;
+@noblecrm-brand-secondary: #f0eeee;
+@noblecrm-brand-lightsecondary: #e2e2e0;
+@noblecrm-color-silver: #F9F9F9;
+@noblecrm-color-silver-dark: #E5E5E5;
+@noblecrm-color-silver-darker: #d9d7d7;
+
+// Define @gray-lighter-dark as a minor bootstrap @gray-lighter variation used
+// for design purposes only (e.g. cards' borders). We avoid to overwrite the
+// default @gray-light because it is deeply used by bootstrap to define muted
+// elements.
+@gray-lighter-dark: @noblecrm-color-silver-dark;
+@gray-lighter-darker: @noblecrm-color-silver-darker;
+
+@noblecrm-color-pink: #875A7B; // Enterprise @noblecrm-brand-primary
+@noblecrm-main-color-muted: #a8a8a8;
+@noblecrm-main-text-color: #4c4c4c;
+
+@noblecrm-view-background-color: white;
+@noblecrm-shadow-color: #303030;
+
+@noblecrm-webclient-background-color: @noblecrm-color-silver;
+@noblecrm-control-panel-background-color: @noblecrm-color-silver;
+@noblecrm-form-lightsecondary: #ccc;
+
+@noblecrm-list-footer-color: @noblecrm-main-text-color;
+@noblecrm-list-footer-bg-color: #eee;
+@noblecrm-list-footer-font-weight: bold;
+
+@noblecrm-tooltip-background-color: black;
+@noblecrm-tooltip-color: white;
+@noblecrm-tooltip-arrow-color: black;
+
+// UI custom colors for tags, kanban records' colors, ...)
+@noblecrm-nb-ui-color: 12;
+@noblecrm-color-0: @gray-light;
+@noblecrm-color-1: #F06050;
+@noblecrm-color-2: #F4A460;
+@noblecrm-color-3: #F7CD1F;
+@noblecrm-color-4: #6CC1ED;
+@noblecrm-color-5: #814968;
+@noblecrm-color-6: #EB7E7F;
+@noblecrm-color-7: #2C8397;
+@noblecrm-color-8: #475577;
+@noblecrm-color-9: #D6145F;
+@noblecrm-color-10: #30C381;
+@noblecrm-color-11: #9365B8;
+
+// Layout
+@screen-xs-min: 475px;
+@screen-xxs-max: (@screen-xs-min - 1);
+
+@noblecrm-form-group-cols: 12;
+@noblecrm-form-spacing-unit: 5px;
+@noblecrm-horizontal-padding: 16px;
+@noblecrm-innergroup-rpadding: 45px;
+@noblecrm-dropdown-hpadding: 20px;
+
+@border-radius-base: 3px;
+
+@noblecrm-sheet-vpadding: 24px;
+
+@noblecrm-avatar-size: 90px;
+
+@noblecrm-statusbar-height: 33px;
+@noblecrm-statusbar-arrow-width: @noblecrm-statusbar-height/3;
+@noblecrm-statusbar-disabled-bg: lighten(@noblecrm-brand-lightsecondary, 7%);
+
+@noblecrm-label-font-size-factor: 0.8;
+@noblecrm-navbar-height: 34px;
+@noblecrm-navbar-inverse-link-hover-bg: @navbar-inverse-link-active-bg;

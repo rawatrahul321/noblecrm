@@ -1,0 +1,5 @@
+/var/log/noblecrm/*.log {
+    copytruncate
+    missingok
+    notifempty
+}
